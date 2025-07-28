@@ -1,0 +1,16 @@
+src/
+├── abis/
+│   └── ProofOfMood.json
+├── components/
+│   ├── Charts.js              ← Komponen untuk Pie dan Bar Chart
+│   ├── CheckInSection.js      ← Bagian untuk Check-in UI + logika
+│   ├── DashboardHeader.js     ← Header + tombol disconnect
+│   ├── MoodStatsCards.js      ← Kartu statistik (streak, mood avg, dll)
+│   └── WalletNotConnected.js  ← UI saat wallet belum konek
+├── hooks/
+│   └── useCountdown.js        ← Hook custom countdown jam 6 pagi
+├── utils/
+│   ├── constants.js           ← Key lokal, reset hour, dll
+│   ├── helpers.js             ← Helper untuk localStorage, dll
+│   └── moodUtils.js           ← Fungsi ambil data dari contract
+├── ProofOfMoodDApp.js         ← Entry point
