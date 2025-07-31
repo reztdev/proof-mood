@@ -29,8 +29,6 @@ export const getMoodDistribution = (moodHistory = [], moods = []) => {
 };
 
 export const fetchStatsFromContract = async (account) => {
-  // Jika kamu ingin ambil dari smart contract asli, tambahkan logic ethers.js di sini
-  // Tapi sekarang dummy aja dulu:
   return {
     totalCheckins: 3,
     currentStreak: 3,
