@@ -15,6 +15,7 @@ const WalletNotConnected = ({ setAccount, setProvider, setSigner, setContract })
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-400 text-white p-4">
+      <div className="text-9xl mb-6">🎭</div>
       <h1 className="text-3xl font-bold mb-4">Welcome to Proof of Mood</h1>
       <p className="mb-6 text-center max-w-md">
         Track your mood daily and build a streak of self-awareness. Connect your wallet to begin your journey!
